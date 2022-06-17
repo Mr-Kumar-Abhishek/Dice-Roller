@@ -14,8 +14,6 @@ class MainActivity : AppCompatActivity() {
 
         rollButton.setOnClickListener {
             rollDice()
-            val resultTextView: TextView = findViewById(R.id.textView)
-            resultTextView.text = "6"
         }
     }
 
